@@ -30,9 +30,9 @@ DWORD getProcId(const char* procName)
 
 int main()
 {
-	//const char* dllPath = "C:\\Users\\playerOne\\source\\repos\\ac_internal_dll\\Debug\\ac_internal_dll.dll";
-	const char* dllPath = "C:\\Users\\playerOne\\source\\repos\\AssaultCubeTrainer\\Debug\\AssaultCubeTrainer.dll";
-	const char* procName = "ac_client.exe";
+	
+	const char* dllPath = "PATH_TO_DLL";
+	const char* procName = "TARGET_PROCESS";
 	DWORD pid = 0;
 
 	while (!pid)
